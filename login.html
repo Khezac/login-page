@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./tailwind.css">
+</head>
+
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="max-w-sm min-h-80">
+        <h2 class="text-lg font-bold text-center mb-4 ">Login</h2>
+        <div class="flex flex-col items-center border bg-white shadow-md rounded-md p-6 space-y-4">
+            <div class="w-full">
+                <label class="text-sm text-gray-500" for="email">Email</label>
+                <input class="w-full mr-2 mb-2 border bg-white hover:bg-gray-300 transition ease-in-out rounded shadow-md shadow-inner px-3 py-2 focus:outline-none" type="email" name="email" id="email" placeholder="Insira seu email..."></input>
+            </div>
+            <div class="w-full">
+                <label class="text-sm text-gray-500" for="password">Senha</label>
+                <input class="w-full mr-2 mb-2 border bg-white hover:bg-gray-300 transition ease-in-out rounded shadow-md shadow-inner px-3 py-2 focus:outline-none" type="password" name="password" id="password" placeholder="Insira sua senha">
+            </div>
+            <div class="w-full">
+                <button class="w-full bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 transition duration-150 ease-in-out px-4 py-1 rounded text-white shadow-md">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
